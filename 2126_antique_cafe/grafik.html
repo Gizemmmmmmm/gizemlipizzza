@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizza Restoranı Satış Grafikleri</title>
+</head>
+<body>
+  <h3>Pizza Restoranı Satış Grafikleri</h3>
+
+  <canvas id="myChart" width="300" height="300"></canvas>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+
+  <script>
+    var ctx = document.getElementById("myChart").getContext("2d");
+    var myChart = new Chart(ctx, {
+      type: "pie",
+      data: {
+        labels: ["Sucuk", "Mozzarella", "Tavuk"],
+        datasets: [{
+          data: [25, 30, 25],
+          backgroundColor: ["#FF0000", "#00FF00", "#0000FF"],
+        }],
+      },
+      options: {
+        responsive: false, // Grafiğin boyutunu sabit tut
+        width: 300, // Genişlik
+        height: 300, // Yükseklik
+      },
+    });
+  </script>
+</body>
+</html>

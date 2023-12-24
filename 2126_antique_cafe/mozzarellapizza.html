@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 85vh;
+      margin: 0;
+      flex-direction: column; /* Add this line to make sure content is centered vertically */
+    }
+
+    .container {
+      position: relative;
+      text-align: center;
+      background-color: #ccc; /* Gri arka plan rengi */
+    }
+
+    img {
+      width: 900px;
+      height: 400px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .text-overlay {
+      position: absolute;
+      top: 20px; /* Belirli bir boşluk bırakabilirsiniz */
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: rgba(255, 255, 255, 0.5); /* Fix the white background color */
+      color: black;
+      padding: 10px;
+      font-size: 50px;
+      z-index: 1; /* Add this line to make sure it's above the image */
+    }
+
+    .content {
+      position: relative; /* Change to relative */
+      text-align: center;
+      color: white;
+      z-index: 2; /* Add this line to make sure it's above the image */
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      padding: 20px;
+      box-sizing: border-box;
+      width: 100%;
+      position: fixed; /* Change to fixed */
+      bottom: 0; /* Add this line to fix the footer at the bottom */
+    }
+
+    footer div {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    footer div div {
+      width: 48%;
+    }
+
+    footer a {
+      font-size: 15px;
+    }
+  </style>
+  <title>Mozzarella Pizza</title>
+</head>
+<body>
+  <div class="container">
+    <img src="img/mozarella.jpg" alt="Mozzarella Pizza">
+    <h2>İçindekiler</h2>
+    <p>Mozzarella</p>
+    <p>Domates</p>
+    
+    <div class="text-overlay">Mozzarella Pizza</div>
+    <div class="content">
+      <!-- Your content goes here -->
+    </div>
+  </div>
+
+  <footer>
+    <div>
+      <div>
+        <p>GiZEMLİPİZZA</p>
+        <p>Kabaoğlu Mahallesi, Atatürk Caddesi, No:101, 41000 İzmit/Kocaeli</p>
+        <p>Telefon: 0 262 026 9095</p>
+        <p>E-posta: info@gizemlipizza.com</p>
+      </div>
+      <div>
+        <p style="display: flex; align-items: center;">Instagram: <a href="https://www.instagram.com/gizemlipizza" target="_blank"><i class="fab fa-instagram">@gizemlipizza</i></a></p>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+</html>

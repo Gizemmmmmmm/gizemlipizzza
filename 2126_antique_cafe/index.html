@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gizemli Pizza</title>
+
+    
+    <link href="path/to/bootstrap.min.css" rel="stylesheet">
+<script src="path/to/bootstrap.bundle.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css"> <!-- fontawesome -->
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/tooplate-antique-cafe.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+<!--
+
+Tooplate 2126 Antique Cafe
+
+https://www.tooplate.com/view/2126-antique-cafe
+
+-->
+
+<style>
+    .dropdown .btn {
+        color: black;
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>    
+    <!-- Intro -->
+    <!-- jQuery CDN -->
+    
+    <!--<div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div> -->
+    
+        <nav id="" class="fixed w-full">
+            <div class="tm-container mx-auto px-2 md:py-6 text-right">
+                <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
+                <ul class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
+                    <li class="inline-block mb-4 mx-4"><b><a href="#GizemliPizza" style="color: black;" class="py-1 md:py-3 px-4">GizemliPizza</b></a></li>
+                    <li class="inline-block mb-4 mx-4"><b><a href="#Ürünlerimiz" style="color: black;" class="py-1 md:py-3 px-4">Ürünlerimiz</b></a></li>
+                    <li class="inline-block mb-4 mx-4"><b><a href="#Misyon-Vizyon" style="color: black;" class="py-1 md:py-3 px-4">Misyon-Vizyon</b></a></li>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButtonSM" data-bs-toggle="dropdown" aria-expanded="false">
+                          Menü
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonSM">
+                          
+                          <li><a class="dropdown-item" href="./pizzalar.html">Pizzalar</a></li>
+                          <li><a class="dropdown-item" href="./icecekler.html">İçecekler</a></li>
+                         
+                        </ul>
+                       </div>
+
+                    <li class="inline-block mb-4 mx-4"><b><a href="#Hakkımızda" style="color: black;" class="py-1 md:py-3 px-4">Hakkımızda</b></a></li>
+                    <li class="inline-block mb-4 mx-4"><b><a href="#İletişim" style="color: black;" class="py-1 md:py-3 px-4" >İletişim</b></a></li>
+                         <div class="dropdown">
+                          <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButtonSM" data-bs-toggle="dropdown" aria-expanded="false">
+                            Birimlerimiz
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonSM">
+                            
+                            <li><a class="dropdown-item" href="./mutfakbirimi.html">Mutfak Birimi</a></li>
+                            <li><a class="dropdown-item" href="./servisbirimi.html">Servis Birimi</a></li>
+                           
+                          </ul>
+                         </div>
+                    <li class="inline-block mb-4 mx-4"><b><a href="adminpaneli.html" style="color: black;" class="py-1 md:py-3 px-4" >Admin-Paneli</b></a></li>     
+                         
+                </ul>
+             </div>            
+        </nav>
+
+        
+    
+    <div id="GizemliPizza" class="parallax-window" data-parallax="scroll" >
+    <div id="kampanyalar" class="parallax-window" data-parallax="scroll" data-image-src="img/anasayfa.jpg" >      
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="tm-item-container sm:ml-auto sm:mr-12 mx-auto sm:px-0 px-4">
+                <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
+                    <h2 class="mb-6 tm-text-green text-4xl font-medium">Kampanyalar</h2>
+                    <p class="mb-6 text-base leading-8 special-offer"><b>
+                        2 AL 1 ÖDE
+                        <a href="ikialbiröde.html" target="_blank" style="color: red;">detayları görmek için tıklayınız</a>
+                     </b></p>
+
+                     <p class="mb-6 text-base leading-8 special-offer"><b>
+                        3 AL 1 ÖDE
+                        <a href="ücalikiöde.html" target="_blank" style="color: red;">detayları görmek için tıklayınız</a>
+                     </b></p>
+
+                     <p class="mb-6 text-base leading-8 special-offer"><b>
+                        BÜYÜK BOY PİZZA ALANA İÇECEK BEDAVA
+                        <a href="büyükboyicecek.html" target="_blank" style="color: red;">detayları görmek için tıklayınız</a>
+                     </b></p>
+
+                     <p class="mb-6 text-base leading-8 special-offer"><b>
+                        ORTA BOY PİZZA ALANA SUFLE BEDAVA
+                        <a href="ortasufle.html" target="_blank" style="color: red;">detayları görmek için tıklayınız</a>
+                     </b></p>
+
+                     <p class="mb-6 text-base leading-8 special-offer"><b>
+                        16.00 - 17.00 SAATLERİ ARASINDA BÜYÜK BOY PİZZALAR 120 TL
+                        <a href="tümpizza.html" target="_blank" style="color: red;">detayları görmek için tıklayınız</a>
+                     </b></p>
+                    
+                </div>
+                
+            </div>           
+        </div>        
+    </div>
+
+    <div id="Ürünlerimiz" class="parallax-window" data-parallax="scroll" >
+    
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/sucuklu-pizza.jpg" class="d-block w-100" alt="Slide 1" >
+            <div class="carousel-caption d-none d-md-block">
+                
+                <h5 style="color: black; font-size: 50px;">SUCUKLU PİZZA</h5>
+                <p style="color: black; font-size: 26px;">SUCUKSEVERLER İÇİN</p>
+                <a href="sucuklupizza.html" target="_blank">detayları görmek için tıklayınız</a>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/tavuklu-pizza.jpg" class="d-block w-100" alt="Slide 2">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 style="color: black; font-size: 50px;">TAVUKLU PİZZA</h5>
+                <p style="color: black; font-size: 26px;">TAVUKSEVERLER İÇİN</p>
+                <a href="tavuklupizza.html" target="_blank">detayları görmek için tıklayınız</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/mozarella.jpg" class="d-block w-100" alt="Slide 3">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 style="color: black; font-size: 50px;">MOZZARELLA</h5>
+                <p style="color: black; font-size: 26px;">MOZZARELLA SEVENLER İÇİN</p>
+                <a href="mozzarellapizza.html" target="_blank">detayları görmek için tıklayınız</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+      <div id="Misyon-Vizyon" class="parallax-window" data-parallax="scroll" data-image-src="img/hakkımızda.jpg">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="tm-item-container sm:ml-auto sm:mr-12 mx-auto sm:px-0 px-4">
+                <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
+                    <h2 class="mb-6 tm-text-green text-4xl font-medium">Misyon-Vizyon</h2>
+                    <p class="mb-6 text-base leading-8">
+                        Gizemli Pizza olarak, müşterilerimize lezzet dolu bir deneyim sunmayı amaçlıyoruz. En kaliteli malzemeleri kullanarak hazırladığımız özgün pizza tariflerimizle, her damak zevkine hitap etmeyi hedefliyoruz. Misafirlerimizi ailemizin bir parçası gibi görüyor ve onlara sıcak bir ortamda unutulmaz anlar yaşatmak için çalışıyoruz. Lezzet, kalite ve misafir memnuniyeti odaklı misyonumuzla, Gizemli Pizza'yı tercih eden herkesi memnun etmeyi taahhüt ediyoruz
+                  </p>
+                  <p class="mb-6 text-base leading-8">
+                    Gizemli Pizza olarak, sektörde öncü olma vizyonuyla hareket ediyoruz. Yaratıcı ve lezzetli pizza çeşitlerimizle tanınan bir marka olmayı hedefliyoruz. Sürdürülebilirlik ilkesine bağlı kalarak, müşterilerimize en iyi kalitede ürünleri sunmaya devam ederek sektörde lider konumumuzu güçlendirmeyi amaçlıyoruz. İnovasyon, dürüstlük ve toplumsal sorumluluk anlayışımızla, Gizemli Pizza'yı daha geniş bir kitleyle buluşturarak pizza tutkunlarının ilk tercihi olmayı sürdüreceğiz.
+                    </p>
+                </div>
+                
+            </div>           
+        </div>        
+    </div>
+    
+    
+    <div id="Hakkımızda" class="parallax-window" data-parallax="scroll" data-image-src="img/hakkımızda.jpg">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="tm-item-container sm:ml-auto sm:mr-12 mx-auto sm:px-0 px-4">
+                <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
+                    <h2 class="mb-6 tm-text-green text-4xl font-medium">Hakkımızda</h2>
+                    <p class="mb-6 text-base leading-8">
+                        Bizim için sadece bir restoran değil, ailemizin bir parçasısınız. Gizemli Pizza'nın kapıları, sıcak ve samimi bir atmosferde lezzet dolu anlar yaşamanız için her zaman açıktır. Her bir misafirimiz, bizim için bir öyküdür ve bu öyküyü unutulmaz kılmak için buradayız.
+
+Sadece pizza satmıyor, lezzetin bir sanat olduğuna inanıyoruz. Gizemli Pizza ekibi, bu sanatı ustalıkla icra etmeyi ve sizlere en iyi hizmeti sunmayı taahhüt ediyor. Her bir dilimimizde, sizlere sunduğumuz lezzetin arkasındaki özeni ve tutkuyu hissedeceğinize eminiz.
+
+Gizemli Pizza ailesi olarak, kalite, dürüstlük ve misafir memnuniyetini ilke edinmiş bir ekibiz. Sizleri ağırlamaktan ve Gizemli Pizza deneyimini yaşatmaktan mutluluk duyuyoruz. Bizimle birlikte bu lezzet dolu yolculuğa çıktığınız için teşekkür eder, sizi Gizemli Pizza'da ağırlamaktan büyük bir memnuniyet duyarız.
+
+Lezzetli anlar bir araya geldiğinde, Gizemli Pizza orada!
+
+                 </p>
+                    
+                </div>
+                
+            </div>           
+        </div>        
+    </div>
+
+
+    <div id="İletişim" class="parallax-window relative" data-parallax="scroll" data-image-src="img/iletişim.jpg">
+         <div class="container mx-auto tm-container pt-24 pb-48 sm:py-48">
+            <div class="flex flex-col lg:flex-row justify-around items-center lg:items-stretch">
+                <div class="flex-1 rounded-xl px-10 py-12 m-5 bg-white bg-opacity-80 tm-item-container">
+                    <h2 class="text-3xl mb-6 tm-text-green">İletişim</h2>
+                    <p class="mb-6 text-lg leading-8">
+                        Gizemli Pizza olarak, siz değerli müşterilerimizle iletişimde olmak ve herhangi bir sorunuz veya geri bildiriminiz varsa size yardımcı olmak istiyoruz. Sizden gelen her mesaj bizim için önemlidir ve en kısa sürede size dönüş yapmaya özen gösteriyoruz.
+
+                        Eğer herhangi bir sorunuz, öneriniz veya isteğiniz varsa, lütfen aşağıdaki iletişim bilgilerimizden bize ulaşın:   
+                    </p>
+                    <p class="mb-10 text-lg">
+                        <span class="block mb-2">Tel: <a href="tel:0 262 026 9095" class="hover:text-blue-600 transition">0 262 026 9095</a></span>
+                        <span class="block">Email: <a href="mailto:info@gizemlipizza.com" class="hover:text-blue-600 transition">info@gizemlipizza.com</a></span>                        
+                    </p>
+                    <div class="text-center">
+                        <a href="https://maps.app.goo.gl/tmus1X9EW3YveoJ5A" class="inline-block text-white text-2xl pl-10 pr-12 py-6 rounded-lg transition tm-bg-green" target="_blank">
+                            <i class="fas fa-map-marked-alt mr-8"></i>
+                            Open Maps
+                        </a>
+                    </div>
+                                    
+                </div>
+                <div class="flex-1 rounded-xl p-12 pb-14 m-5 bg-black bg-opacity-50 tm-item-container">
+                    <form action="" method="POST" class="text-lg">
+                        <p class="text-3xl font-bold text-white">ŞİKAYET/ÖNERİ</p>
+
+                        <input type="text" name="name" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Name" required="" />
+                        <input type="email" name="email" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Email" required="" />
+                        <textarea rows="6" name="message" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Message..." required=""></textarea>
+                        <div class="text-right">
+                            <button type="submit" class="text-white hover:text-yellow-500 transition">Gönder</button>
+                        </div>                        
+                      </form>
+                </div>
+            </div>
+
+            <h3><b>Pizza Restoranı Satış Grafikleri</b></h3>
+
+  <canvas id="myChart" width="400" height="400"></canvas>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+
+  <script>
+    var ctx = document.getElementById("myChart").getContext("2d");
+    var myChart = new Chart(ctx, {
+      type: "pie",
+      data: {
+        labels: ["Sucuk", "Mozzarella", "Tavuk"],
+        datasets: [{
+          data: [45, 30, 25],
+          backgroundColor: ["#FF0000", "#00FF00", "#0000FF"],
+        }],
+      },
+      options: {
+        responsive: false, // Grafiğin boyutunu sabit tut
+        width: 400, // Genişlik
+        height: 400, // Yükseklik
+      },
+    });
+  </script>
+
+           
+            
+           
+        </div>        
+    </div>    
+    <footer style="background-color: #f0f0f0; padding: 20px; box-sizing: border-box; width: 100%; margin-top: auto;">
+        <div style="display: flex; justify-content: space-between;">
+            <div style="width: 48%;">
+                <p>GiZEMLİPİZZA</p>
+                <p>Kabaoğlu Mahallesi, Atatürk Caddesi, No:101, 41000 İzmit/Kocaeli</p>
+                <p>Telefon: 0 262 026 9095</p>
+                <p>E-posta: info@gizemlipizza.com</p>
+            </div>
+            <div style="width: 48%;">
+                <p style="display: flex; align-items: center;">Instagram: <a href="https://www.instagram.com/gizemlipizza" target="_blank" style="font-size: 15px;"><i class="fab fa-instagram">@gizemlipizza</i></a></p>
+            </div>
+        </div>
+      </footer>
+
+   
+
+    
+    
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/jquery.singlePageNav.min.js"></script>
+
+    <script>
+
+        function checkAndShowHideMenu() {
+            if(window.innerWidth < 768) {
+                $('#tm-nav ul').addClass('hidden');                
+            } else {
+                $('#tm-nav ul').removeClass('hidden');
+            }
+        }
+
+        $(function(){
+            var tmNav = $('#tm-nav');
+            tmNav.singlePageNav();
+
+            checkAndShowHideMenu();
+            window.addEventListener('resize', checkAndShowHideMenu);
+
+            $('#menu-toggle').click(function(){
+                $('#tm-nav ul').toggleClass('hidden');
+            });
+
+            $('#tm-nav ul li').click(function(){
+                if(window.innerWidth < 768) {
+                    $('#tm-nav ul').addClass('hidden');
+                }                
+            });
+
+            $(document).scroll(function() {
+                var distanceFromTop = $(document).scrollTop();
+
+                if(distanceFromTop > 100) {
+                    tmNav.addClass('scroll');
+                } else {
+                    tmNav.removeClass('scroll');
+                }
+            });
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

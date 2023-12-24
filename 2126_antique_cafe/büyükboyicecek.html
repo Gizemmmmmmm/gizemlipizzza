@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      position: relative;
+      text-align: center;
+      background-color: rgb(200, 66, 66); /* Gri arka plan rengi */
+    }
+
+    img {
+      width: 1000px;
+      height: 600px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .text-overlay {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: rgba(243, 243, 243, 0.5); /* Corrected the background color */
+      color: black;
+      padding: 10px;
+      font-size: 45px;
+    }
+
+    .content {
+      position: absolute;
+      bottom: 20px; /* Adjusted the position */
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      color: white;
+    }
+  </style>
+  <title>İÇECEK BİZDEN</title>
+</head>
+<body>
+  <div class="container">
+    <img src="img/büyükicecek.jpg">
+    <div class="text-overlay">
+      <h1>İÇECEK BEDAVA KAMPANYASI</h1>
+      <p>Dilediğiniz büyük boy pizzanızın yanında içecek bizden</p>
+     
+    </div>
+    <div class="content">
+      <!-- Additional content goes here -->
+    </div>
+  </div>
+
+  <footer style="background-color: #f0f0f0; padding: 20px; box-sizing: border-box; width: 100%; margin-top: auto;">
+    <div style="display: flex; justify-content: space-between;">
+        <div style="width: 48%;">
+            <p>GiZEMLİPİZZA</p>
+            <p>Kabaoğlu Mahallesi, Atatürk Caddesi, No:101, 41000 İzmit/Kocaeli</p>
+            <p>Telefon: 0 262 026 9095</p>
+            <p>E-posta: info@gizemlipizza.com</p>
+        </div>
+        <div style="width: 48%;">
+            <p style="display: flex; align-items: center;">Instagram: <a href="https://www.instagram.com/gizemlipizza" target="_blank" style="font-size: 15px;"><i class="fab fa-instagram">@gizemlipizza</i></a></p>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>
